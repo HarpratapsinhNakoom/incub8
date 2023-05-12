@@ -1,0 +1,20 @@
+#events-main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding:40px;
+}
+
+#main-heading {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    /* color: #1e95d4; */
+}
+
+#main-subheading {
+    color: #1e95d4;
+    font-size: 26px;
+}
