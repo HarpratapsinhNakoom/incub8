@@ -1,0 +1,35 @@
+@media screen and (max-width: 950px) {
+    .events-listitem {
+        flex-direction: column;
+    }
+
+    .item-details {
+        border-top: 1px solid black;
+        border-left: none;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    #main-heading {
+        font-size: 45px;
+    }
+
+    #events-list {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    #main-heading {
+        font-size: 35px;
+    }
+
+    .item-heading {
+        font-size: 26px;
+    }
+
+    .item-desc {
+        font-size: 20px;
+    }
+}
