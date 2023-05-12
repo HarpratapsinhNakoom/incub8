@@ -23,18 +23,22 @@
 }
 
 #main-video {
+    width: 100%;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
+    object-fit: cover;
     gap: 35px;
 }
 
-#main-video > img {
-    width: 100%;
+#main-vide-container {
+    flex: 1;
 }
 
+#main-video-container > img {
+    width: 100%;
+}
 #main-desc {
     flex: 1;
     /* border: 1px solid black; */
