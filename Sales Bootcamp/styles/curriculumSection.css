@@ -28,7 +28,8 @@
     border: 1px solid aliceblue;
     border-radius: 15px;
     padding: 0 25px;
-    background-color: #4A2199;
+    background: rgb(96,17,103);
+    background: linear-gradient(338deg, rgba(96,17,103,1) 39%, rgba(51,1,60,1) 75%);
     color: aliceblue;
 
     padding-bottom: 30px;

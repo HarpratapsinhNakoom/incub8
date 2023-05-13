@@ -20,12 +20,13 @@
 
 #mentor-heading > h1 {
     font-size: 45px;
-    color: #4A2199;
+    color: rgb(96,17,103);
     text-align: center;
 }
 
 #mentor-info {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     gap: 40px;
 }
@@ -34,17 +35,22 @@
     flex: 1;
     /* width: 100px; */
     object-fit: contain;
+    position: relative;
 }
 
+
+/* 33013C */
+/* 3B0340 */
 #mentor-img >img {
     width: 100%;
     border-radius: 12px;
+    /* transform: translate(-20px, -60px); */
 }
 
 #mentor-desc {
     font-size: 20px;
     line-height: 33px;
-    flex: 2.5;
+    flex: 1.5;
     font-weight: 400;
 }
 
@@ -53,4 +59,20 @@
     font-size: 22px;
     font-weight: 500;
     color: #4A2199;
+}
+
+#mentor-company-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.mentor-company-item {
+    /* width: 10px; */
+    object-fit: contain;
+}
+
+.mentor-company-item > img {
+    height: 100px;
 }
