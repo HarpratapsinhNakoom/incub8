@@ -37,10 +37,15 @@
 }
 
 .item-desc {
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 30px;
 }
 
+.item-desc > p {
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 26px;
+}
 .item-desc > a {
     color: #4A2199;
     font-size: 20px;
