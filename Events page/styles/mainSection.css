@@ -1,10 +1,11 @@
 #events-main {
+    padding:40px;
+    padding-top: 140px;
     display: flex;
     /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    padding:40px;
 }
 
 #main-heading {
