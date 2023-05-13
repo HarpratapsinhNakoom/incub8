@@ -99,4 +99,8 @@
         gap: 50px;
         align-items: flex-start;
     }
+
+    #footer-name {
+        text-align: left;
+    }
 }
