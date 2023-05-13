@@ -4,6 +4,8 @@
     position: fixed;
     background-color: black;
     z-index: 10;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
 #navbar-content {
     margin: 0 10px;
