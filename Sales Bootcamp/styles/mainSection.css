@@ -32,7 +32,7 @@
     gap: 35px;
 }
 
-#main-vide-container {
+#main-video-container {
     flex: 1;
 }
 
@@ -97,6 +97,7 @@
     font-weight:600;
     font-size: 20px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .language {
