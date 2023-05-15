@@ -24,3 +24,12 @@ window.addEventListener("resize", () => {
 		toggleBtn.style.display = "block";
 	}
 })
+
+const sidebar_item = document.querySelectorAll(".sidebar-link-item");
+
+sidebar_item.forEach(item => {
+	item.addEventListener("click", () => {
+		sidebar.style.translate = "100vw";
+		document.getElementById("navbar-icon").classList.remove('open');
+	})
+})

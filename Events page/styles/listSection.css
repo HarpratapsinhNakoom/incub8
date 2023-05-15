@@ -12,6 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000;
 }
 
 .item-image-container {
@@ -48,7 +50,10 @@
 }
 .item-desc > a {
     color: #4A2199;
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.item-desc > a:hover {
     text-decoration: none;
 }
 
