@@ -4,7 +4,11 @@
         align-items: center;
     }
 }
-@media screen and (max-width : 700px) {
+@media screen and (max-width : 725px) {
+    .item-name {
+        font-size: 18px;
+    }
+
     .list-details {
         flex-direction: column;
     }
@@ -19,6 +23,13 @@
     #bootcamp-curriculum {
         padding:0 20px;
     }
+    .wsa-listitem {
+        width: 45%;
+        height: 90px;
+    }
+    .item-name {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width : 450px) {
     .listitem-text {
@@ -26,6 +37,16 @@
     }
     #bootcamp-mentor {
         padding: 0 20px;
+    }
+
+    #bootcamp-wsa {
+        padding: 0 20px;
+    }
+    .wsa-listitem {
+        width: 95%;
+    }
+    .item-name {
+        font-size: 24px;
     }
 }
 @media screen and (max-width : 400px) {

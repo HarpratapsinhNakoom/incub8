@@ -53,7 +53,7 @@
 }
 
 .item-mentor {
-    font-size: 32px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -64,5 +64,6 @@
 }
 
 .item-mentor > span {
-    color: #1e95d4;
+    color: #4A2199;
+    font-size: 32px;
 }

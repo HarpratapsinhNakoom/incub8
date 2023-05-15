@@ -16,8 +16,11 @@ toggleBtn.addEventListener("click", () => {
 })
 
 window.addEventListener("resize", () => {
-	if(parseInt(window.innerWidth) >= 1040) {
-		sidebar.style.translate = "50vw";
+	if(parseInt(window.innerWidth) >= 1100) {
+		sidebar.style.translate = "100vw";
 		toggleBtn.style.display = "none";
+	}else {
+		sidebar.style.translate = "100vw";
+		toggleBtn.style.display = "block";
 	}
 })

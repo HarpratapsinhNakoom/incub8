@@ -1,6 +1,14 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 775px) {
     .events-listitem {
         flex-direction: column;
+    }
+
+    .item-image-container {
+        padding-right: 0;
+    }
+
+    .item-details {
+        padding-left: 0;
     }
 
     .item-details {
