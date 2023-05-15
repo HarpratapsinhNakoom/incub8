@@ -1,18 +1,15 @@
 @media screen and (max-width: 775px) {
-    .events-listitem-info {
+    .events-listitem {
         flex-direction: column;
     }
 
     .item-image-container {
-        padding-bottom: 20px;
         padding-right: 0;
     }
     
     .item-details {
         padding-left: 0;
-        border-top: 1px solid black;
         border-left: none;
-        padding-top: 20px;
     }
 }
 
