@@ -166,6 +166,7 @@ body {
 }
 
 #page3-top {
+    color: aliceblue;
     text-align: center;
     padding: 0 90px;
     margin: 60px 0;
@@ -175,9 +176,10 @@ body {
 
 #page3-middle {
     width: 100%;
-    background-image: url("../common assets/page3-bg.png");
+    background-image: url("../../Common components/assets/page3-bg.png");
     /* background-color: red; */
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -205,6 +207,8 @@ body {
 }
 
 .page3-text-container {
+    /* border-left: 1px solid aliceblue;
+    border-right: 1px solid aliceblue; */
     color: aliceblue;
     flex: 1;
     padding: 35px 12px;
@@ -222,23 +226,54 @@ body {
     margin-bottom: 30px;
 }
 
-.page3-text-container > a {
+.page3-text-container > a, .page3-seperate-listitem > a {
     text-decoration: none;
     font-weight: 700;
     color: white;
 }
 
-.page3-text-container:hover {
+.page3-text-container:hover, .page3-seperate-text:hover {
     -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0,0.1);
     border-top: 3px solid red;
 }
 
-.page3-text-container:hover > a{
+.page3-text-container:hover > a, .page3-seperate-text:hover + a{
     color: red;
 }
 
+#page3-bottom-seperate {
+    padding: 0 50px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 40px;
+    text-align: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.page3-seperate-listitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 45%;
+}
+
+.page3-seperate-title {
+    font-size: 28px;
+    /* color: red; */
+    font-weight: 700;
+}
+
+.page3-seperate-text {
+    padding: 20px 0;
+}
 #page4 {
     min-height: 100vh;
     width: 100%;
